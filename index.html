@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090909">
+  <title>Frameless 4K — Premium Wall Showcase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">FRAMELESS<span>4K</span></div>
+    <button class="menu" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">PREMIUM DIGITAL WALL ART</p>
+        <h1>Turn a photograph into an experience.</h1>
+        <p class="intro">
+          A cinematic, frameless 4K presentation designed for modern interiors,
+          digital displays and premium social showcases.
+        </p>
+        <div class="actions">
+          <button class="primary" id="viewBtn">View in Gallery</button>
+          <button class="ghost" id="fullscreenBtn">Full Screen</button>
+        </div>
+      </div>
+
+      <div class="display-card" id="display">
+        <img src="assets/hero-wall-display.png"
+             alt="Premium frameless wall display in a modern interior">
+        <div class="display-label">4K CINEMATIC DISPLAY</div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="section-heading">
+        <p class="eyebrow">THE SHOWCASE</p>
+        <h2>One image. Different atmosphere.</h2>
+      </div>
+
+      <article class="feature">
+        <img src="assets/hero-wall-display.png" alt="Frameless artwork showcase">
+        <div class="feature-copy">
+          <span>01 / SIGNATURE WALL</span>
+          <h3>Designed to disappear into the wall.</h3>
+          <p>
+            Minimal borders, cinematic lighting and a clean presentation keep
+            attention on the photograph rather than the hardware.
+          </p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>FRAMELESS4K</span>
+    <span>Premium visual presentation</span>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="close" id="closeBtn" aria-label="Close">×</button>
+    <img src="assets/hero-wall-display.png" alt="Full-screen 4K wall showcase">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
